@@ -5,8 +5,8 @@ import mysql.connector
 #Datenbankverbindung herstellen
 mydb = mysql.connector.connect( 
     host="10.0.0.3",
-    user="dbuser",
-    password="dbpassword",
+    user="********"
+    password="*******"
     database="monicont",
 )
 mycursor = mydb.cursor(buffered=True)
